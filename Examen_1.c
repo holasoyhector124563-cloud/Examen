@@ -13,7 +13,7 @@ int main(){
         float promedio=0;
         if(alu2==NULL){
             printf("Error al asignar memoria\n");
-            exit(1);
+            return 1;
         }
         alu=alu2;
         for(int i=n; i<n+k; i++){
